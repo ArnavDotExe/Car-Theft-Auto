@@ -165,7 +165,7 @@ void loop()
         {
           digitalWrite(SLEEP_PIN, LOW); // Sleep Mode OFF
           Serial.println("---------ITS RINGING-------");
-          A9GSerial.println("ATA");
+          A9GSerial.println("ATA"); //Ans the call
         }
 
         else if (fromGSM == "NO CARRIER\r")
